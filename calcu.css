@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, #1abc9c, #3498db); /* Teal to light blue gradient */
+  }
+  
+  .calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: color 0.3s, background 0.3s; /* Add transition for smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: black; /* Change button background color to black on hover */
+    color: white; /* Change text color to white on hover */
+  }
+  
